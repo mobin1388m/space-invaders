@@ -1,0 +1,59 @@
+body{
+    background-color: #44008b;
+}
+.grid{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(images/space.png);
+    border-radius:  10px;
+    border: 3px solid white;
+    margin: auto;
+
+}
+
+.grid div {
+    width: 50px;
+    height: 50px;
+}
+.invader{
+    background: url(images/enemy1.png);
+
+}
+.shooter{
+    background:url(images/player.png)
+
+}
+
+.laser{
+    background: url(images/laser.png);
+    background-size: cover;
+}
+
+.boom {
+    background-color: red;
+}
+
+.result{
+    text-align: center;
+    color: aliceblue;
+}
+.win{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.win h1 {
+    position: relative;
+    color: #ffeb3b;
+    font-weight: 600;
+    font-size: 10em;
+    -webkit-box-reflect: below -120px linear-gradient(transparent,#0008);
+    text-shadow: 0 0 10px #ff8c3b,
+    0 0 40px #ff8c3b,
+    0 0 80px #ff8c3b,
+    0 0 160px #ff8c3b,
+    0 0 2400px #ff8c3b;
+}
